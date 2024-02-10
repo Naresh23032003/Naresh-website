@@ -90,12 +90,3 @@ with c3:
     st.info('**GitHub: [@Naresh23032003](https://github.com/Naresh23032003)**', icon="💻")
 with c4:
     st.info('**LinkedIn: [@naresh-r-5b8209203](https://www.linkedin.com/in/naresh-r-5b8209203/)**', icon="🎓")
-
-css = '''
-<style>
-    [data-testid="stSidebar"]{
-        min-width: 400px;
-        max-width: 800px;
-    }
-'''
-st.markdown(css, unsafe_allow_html=True)
